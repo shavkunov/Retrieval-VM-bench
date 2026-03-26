@@ -1,0 +1,21 @@
+[project]
+name = "Retrieval-VM-bench"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "datasets>=4.8.4",
+    "langchain>=1.2.13",
+    "langchain-openai>=1.1.12",
+    "numpy>=2.4.3",
+    "python-dotenv>=1.2.2",
+    "rank-bm25>=0.2.2",
+    "scikit-learn>=1.8.0",
+    "sentence-transformers>=5.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.7",
+]
